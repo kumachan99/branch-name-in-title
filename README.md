@@ -37,7 +37,7 @@ All JetBrains IDEs with Git integration (build 253.*):
 
 ### From Disk
 
-1. Download the latest `.zip` file from [Releases](https://github.com/kumachan99/BranchInWindowTitle/releases)
+1. Download the latest `.zip` file from [Releases](https://github.com/kumachan99/branch-name-in-title/releases)
 2. Open your IDE
 3. Go to `Settings` → `Plugins` → ⚙️ → `Install Plugin from Disk...`
 4. Select the downloaded file
@@ -53,7 +53,7 @@ All JetBrains IDEs with Git integration (build 253.*):
 ### Build
 
 ```bash
-git clone https://github.com/kumachan99/BranchInWindowTitle.git
+git clone https://github.com/kumachan99/branch-name-in-title.git
 cd BranchInWindowTitle
 
 ./gradlew buildPlugin
