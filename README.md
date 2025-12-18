@@ -1,76 +1,70 @@
 # Branch in Window Title
 
-JetBrains IDE (GoLand 2025.3+) プラグイン。ウィンドウタイトルバーに現在のGitブランチ名を表示します。
+JetBrains IDE plugin that displays the current Git branch name in the window title bar.
 
-## 機能
+## Features
 
-- ウィンドウタイトルにGitブランチ名を表示
-- ブランチ切り替え時に自動更新
-- 複数プロジェクトウィンドウに対応
-- detached HEAD状態ではコミットハッシュを表示
-- 非Gitプロジェクトでは通常のタイトルを表示
+- Display Git branch name in window title
+- Auto-update when switching branches
+- Support multiple project windows
+- Show commit hash in detached HEAD state
+- Gracefully handle non-Git projects
 
-## 表示形式
+## Supported IDEs
 
-```
-プロジェクト名 [ブランチ名] - ファイル名
-```
+All JetBrains IDEs with Git integration (build 253.*):
+- IntelliJ IDEA
+- GoLand
+- WebStorm
+- PyCharm
+- PhpStorm
+- RubyMine
+- CLion
+- Rider
+- etc.
 
-例: `my-project [feature/user-auth] - main.go`
+## Installation
 
-## 動作環境
+### From JetBrains Marketplace
 
-- GoLand 2025.3 以降
-- IntelliJ Platform 2025.3 (253.*)
+1. Open your IDE
+2. Go to `Settings` → `Plugins` → `Marketplace`
+3. Search for "Branch in Window Title"
+4. Click `Install`
+5. Restart IDE
 
-## インストール
+### From Disk
 
-### 方法1: JARファイルからインストール
+1. Download the latest `.zip` file from [Releases](https://github.com/kumachan99/BranchInWindowTitle/releases)
+2. Open your IDE
+3. Go to `Settings` → `Plugins` → ⚙️ → `Install Plugin from Disk...`
+4. Select the downloaded file
+5. Restart IDE
 
-1. [Releases](https://github.com/your-username/branch-window-title/releases) から最新の `.zip` ファイルをダウンロード
-2. GoLand を開く
-3. `Settings` → `Plugins` → 歯車アイコン → `Install Plugin from Disk...`
-4. ダウンロードしたファイルを選択
-5. IDEを再起動
+## Building from Source
 
-### 方法2: ソースからビルド
-
-```bash
-# リポジトリをクローン
-git clone https://github.com/your-username/branch-window-title.git
-cd branch-window-title
-
-# ビルド
-./gradlew buildPlugin
-
-# プラグインは build/distributions/ に生成されます
-```
-
-## 開発
-
-### 必要環境
+### Requirements
 
 - JDK 21
 - Gradle 8.x
 
-### ビルド
+### Build
 
 ```bash
-./gradlew build
+git clone https://github.com/kumachan99/BranchInWindowTitle.git
+cd BranchInWindowTitle
+
+./gradlew buildPlugin
 ```
 
-### IDEで実行（デバッグ）
+The plugin will be generated in `build/distributions/`.
+
+### Run IDE with Plugin (Debug)
 
 ```bash
 ./gradlew runIde
 ```
 
-### プラグインのパッケージング
-
-```bash
-./gradlew buildPlugin
-```
-
-## ライセンス
+## License
 
 MIT License
