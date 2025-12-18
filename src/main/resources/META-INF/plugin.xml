@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.github.kumachan99.branchtitle</id>
     <name>Branch Name in Title</name>
-    <vendor email="kumachan99@users.noreply.github.com" url="https://github.com/kumachan99/branch-window-title">kumachan99</vendor>
+    <vendor email="kumachan99@users.noreply.github.com" url="https://github.com/kumachan99/BranchInWindowTitle">kumachan99</vendor>
 
     <description><![CDATA[
     Displays the current Git branch name in the window title bar.
