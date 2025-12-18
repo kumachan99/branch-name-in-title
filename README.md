@@ -1,3 +1,6 @@
+[![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/29409)](https://plugins.jetbrains.com/plugin/29409)
+
+
 # Branch Name in Title
 
 JetBrains IDE plugin that displays the current Git branch name in the window title bar.
