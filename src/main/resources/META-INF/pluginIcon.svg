@@ -31,12 +31,12 @@
   <g stroke="#FFFFFF" stroke-width="1" stroke-linecap="round" fill="none">
     <!-- Main branch line -->
     <line x1="26" y1="6" x2="26" y2="12"/>
-    <!-- Branch fork: horizontal then curve down -->
-    <path d="M26 8 L29 8 Q32 8 32 11"/>
+    <!-- Branch fork: horizontal then curve up -->
+    <path d="M26 10 L29 10 Q32 10 32 7"/>
     <!-- Commit dots -->
     <circle cx="26" cy="6" r="1.2" fill="#FFFFFF" stroke="none"/>
     <circle cx="26" cy="12" r="1.2" fill="#FFFFFF" stroke="none"/>
-    <circle cx="32" cy="11" r="1.2" fill="#FFFFFF" stroke="none"/>
+    <circle cx="32" cy="7" r="1.2" fill="#FFFFFF" stroke="none"/>
   </g>
 
   <!-- Content area - code lines -->
