@@ -4,25 +4,31 @@
     <vendor email="kumachan99@users.noreply.github.com" url="https://github.com/kumachan99/branch-name-in-title">kumachan99</vendor>
 
     <description><![CDATA[
-    Displays the current Git branch name in the window title bar.
-    <br><br>
-    This plugin helps you easily identify which branch you're working on when switching between multiple project windows.
-    <br><br>
-    <b>Features:</b>
+    <p>Displays the current Git branch name in the window title bar.</p>
+    <p>ウィンドウタイトルバーに現在のGitブランチ名を表示します。</p>
+
+    <p>This plugin helps you easily identify which branch you're working on when switching between multiple project windows.</p>
+    <p>複数のプロジェクトウィンドウを切り替える際に、どのブランチで作業しているかを簡単に識別できます。</p>
+
+    <b>Features / 機能:</b>
     <ul>
-        <li>Shows Git branch name in window title</li>
-        <li>Automatically updates when switching branches</li>
-        <li>Supports multiple project windows</li>
-        <li>Handles detached HEAD state</li>
+        <li>Shows Git branch name in window title / ウィンドウタイトルにGitブランチ名を表示</li>
+        <li>Automatically updates when switching branches / ブランチ切り替え時に自動更新</li>
+        <li>Supports multiple project windows / 複数プロジェクトウィンドウに対応</li>
+        <li>Handles detached HEAD state / detached HEAD状態に対応</li>
     </ul>
+
+    <b>Supported IDEs / 対応IDE:</b>
+    <p>All JetBrains IDEs with Git integration (IntelliJ IDEA, GoLand, WebStorm, PyCharm, PhpStorm, etc.)</p>
+    <p>Git統合を持つすべてのJetBrains IDE（IntelliJ IDEA、GoLand、WebStorm、PyCharm、PhpStorm など）</p>
     ]]></description>
 
     <change-notes><![CDATA[
     <b>1.0.0</b>
     <ul>
-        <li>Initial release</li>
-        <li>Display Git branch name in window title</li>
-        <li>Auto-update on branch change</li>
+        <li>Initial release / 初回リリース</li>
+        <li>Display Git branch name in window title / ウィンドウタイトルにGitブランチ名を表示</li>
+        <li>Auto-update on branch change / ブランチ変更時に自動更新</li>
     </ul>
     ]]></change-notes>
 

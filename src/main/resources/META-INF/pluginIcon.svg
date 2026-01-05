@@ -1,0 +1,24 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Window frame -->
+  <rect x="2" y="6" width="36" height="28" rx="3" fill="#3574F0" stroke="#2B5FC3" stroke-width="1.5"/>
+
+  <!-- Title bar -->
+  <rect x="2" y="6" width="36" height="8" rx="3" fill="#2B5FC3"/>
+  <rect x="2" y="11" width="36" height="3" fill="#2B5FC3"/>
+
+  <!-- Window buttons -->
+  <circle cx="7" cy="10" r="1.5" fill="#FF6B6B"/>
+  <circle cx="12" cy="10" r="1.5" fill="#FFD93D"/>
+  <circle cx="17" cy="10" r="1.5" fill="#6BCB77"/>
+
+  <!-- Git branch icon in title -->
+  <circle cx="28" cy="10" r="2" fill="#FFFFFF"/>
+  <line x1="28" y1="12" x2="28" y2="16" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="33" cy="10" r="2" fill="#FFFFFF"/>
+  <path d="M28 12 Q30 14 33 12" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Content area lines -->
+  <rect x="6" y="18" width="20" height="2" rx="1" fill="#FFFFFF" opacity="0.6"/>
+  <rect x="6" y="23" width="28" height="2" rx="1" fill="#FFFFFF" opacity="0.4"/>
+  <rect x="6" y="28" width="16" height="2" rx="1" fill="#FFFFFF" opacity="0.4"/>
+</svg>
